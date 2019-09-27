@@ -23,25 +23,22 @@ public class Client {
                 System.out.println("Invalid. Please enter again:");
             }
         }
-
         Client client = new Client(readName, host, portNumber);
         client.startClient(scan);
     }
-
     private Client(String userName, String host, int portNumber){
         this.userName = userName;
         this.serverHost = host;
         this.serverPort = portNumber;
     }
-
     private void startClient(Scanner scan){
         try{
             Socket socket = new Socket(serverHost, serverPort);
             Thread.sleep(1000);
-
             ServerThread serverThread = new ServerThread(socket, userName);
             Thread serverAccessThread = new Thread(serverThread);
             serverAccessThread.start();
+
             while(serverAccessThread.isAlive()){
                 if(scan.hasNextLine()){
                     serverThread.addNextMessage(scan.nextLine());
@@ -51,7 +48,10 @@ public class Client {
             System.err.println("Fatal Connection error!");
             ex.printStackTrace();
         }catch(InterruptedException ex){
-            System.out.println("Interrupted");
+            System.out.println("Interrupted.");
         }
+    }
+    public String getReadName(String readName){
+        return readName;
     }
 }

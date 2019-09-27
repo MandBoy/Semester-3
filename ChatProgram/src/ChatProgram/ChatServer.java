@@ -27,7 +27,7 @@ public class ChatServer {
             ServerSocket serverSocket = new ServerSocket(serverPort);
             acceptClients(serverSocket);
         } catch (IOException e){
-            System.err.println("Could not listen on port: "+serverPort);
+            System.err.println("IOExecption / Port Problem");
             System.exit(1);
         }
     }

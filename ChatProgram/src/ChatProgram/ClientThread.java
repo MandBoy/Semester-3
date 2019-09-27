@@ -26,8 +26,8 @@ public class ClientThread implements Runnable {
             while(!socket.isClosed()){
                 if(in.hasNextLine()){
                     String input = in.nextLine();
-                    for(ClientThread thatClient : server.getClients()){
-                        PrintWriter thatClientOut = thatClient.getWriter();
+                    for(ClientThread theClient : server.getClients()){
+                        PrintWriter thatClientOut = theClient.getWriter();
                         if(thatClientOut != null){
                             thatClientOut.write(input + "\r\n");
                             thatClientOut.flush();
