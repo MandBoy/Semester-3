@@ -46,7 +46,7 @@ public class ChatServer {
                 thread.start();
                 clients.add(client);
             } catch (IOException ex){
-                System.out.println("Accept failed on : "+serverPort);
+                System.out.println("Accept failed on: "+ serverPort);
             }
         }
     }
