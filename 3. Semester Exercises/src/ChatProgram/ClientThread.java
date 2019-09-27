@@ -1,4 +1,4 @@
-package Test;
+package ChatProgram;
 
 import Services.Inputhandler;
 

@@ -1,4 +1,4 @@
-package Test;
+package ChatProgram;
 
 import java.io.IOException;
 import java.net.ServerSocket;
@@ -28,7 +28,7 @@ public class ChatServer{
             ServerSocket serverSocket = new ServerSocket(serverPort);
             acceptClients(serverSocket);
         } catch (IOException e){
-            System.err.println("Could not listen on port: "+serverPort);
+            System.err.println("Could not listen on port: "+ serverPort);
             System.exit(1);
         }
     }

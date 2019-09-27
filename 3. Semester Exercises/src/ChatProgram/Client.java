@@ -1,4 +1,4 @@
-package Test;
+package ChatProgram;
 
 import Services.Inputhandler;
 
@@ -7,14 +7,11 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Client {
-
     private static final String host = "localhost";
     private static final int portNumber = 4444;
-
     private String userName;
     private String serverHost;
     private int serverPort;
-    private Scanner userInputScanner;
 
     public static void main(String[] args){
         String readName = null;

@@ -16,29 +16,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test/ChatServer.java">
+        <entry file="file://$PROJECT_DIR$/src/ChatProgram/ChatServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+            <state relative-caret-position="-116">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#466#467#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Test/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/ChatProgram/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="680">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Services/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -103,17 +108,20 @@
         <option value="$PROJECT_DIR$/src/Fitness/FitnessExercise.java" />
         <option value="$PROJECT_DIR$/src/Chat/ChatRoomProgram.java" />
         <option value="$PROJECT_DIR$/src/Chat/ChatRoom.java" />
-        <option value="$PROJECT_DIR$/src/Services/Program.java" />
         <option value="$PROJECT_DIR$/src/Chat/Server.java" />
+        <option value="$PROJECT_DIR$/src/Test/Client.java" />
         <option value="$PROJECT_DIR$/src/Test/ChatServer.java" />
         <option value="$PROJECT_DIR$/src/Test/ClientThread.java" />
         <option value="$PROJECT_DIR$/src/Test/ServerThread.java" />
-        <option value="$PROJECT_DIR$/src/Test/Client.java" />
+        <option value="$PROJECT_DIR$/src/Services/Program.java" />
+        <option value="$PROJECT_DIR$/src/ChatProgram/Client.java" />
+        <option value="$PROJECT_DIR$/src/ChatProgram/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/ChatProgram/ChatServer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
+    <option name="x" value="922" />
     <option name="width" value="943" />
     <option name="height" value="1087" />
   </component>
@@ -122,8 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,7 +152,7 @@
               <item name="Fitness" type="b2602c69:ProjectViewProjectNode" />
               <item name="3. Semester Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Chat" type="462c0819:PsiDirectoryNode" />
+              <item name="ChatProgram" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fitness" type="b2602c69:ProjectViewProjectNode" />
@@ -164,24 +170,24 @@
               <item name="Fitness" type="b2602c69:ProjectViewProjectNode" />
               <item name="3. Semester Exercises" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
+              <item name="Threads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Fitness" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3. Semester Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Threads" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569567431989" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569571666190" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Test/ChatServer.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -216,7 +222,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgramMain" type="Application" factoryName="Application">
+    <configuration name="ProgramMain" type="Application" factoryName="Application" singleton="false">
       <option name="MAIN_CLASS_NAME" value="Services.Main" />
       <module name="Fitness" />
       <method v="2">
@@ -248,12 +254,13 @@
       <workItem from="1569412550872" duration="7384000" />
       <workItem from="1569480183757" duration="6795000" />
       <workItem from="1569487329690" duration="1951000" />
-      <workItem from="1569566546018" duration="882000" />
+      <workItem from="1569566546018" duration="2977000" />
+      <workItem from="1569569907630" duration="1926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61672000" />
+    <option name="totallyTimeSpent" value="65693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,9 +273,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28114665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28445426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -287,7 +293,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3281412" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32917964" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -396,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fitness/Read.java" />
     <entry file="file://$PROJECT_DIR$/src/Fitness/Administration.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -428,30 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fitness/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat/ChatRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Services/Time.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -459,17 +434,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chat/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/Chat/ChatRoom.java" />
+    <entry file="file://$PROJECT_DIR$/src/Chat/Login.java" />
+    <entry file="file://$PROJECT_DIR$/src/Chat/Server.java" />
+    <entry file="file://$PROJECT_DIR$/src/Services/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        <state relative-caret-position="408">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Services/Main.java">
+    <entry file="file://$PROJECT_DIR$/Fitness.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChatProgram/ClientThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,46 +474,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/ChatServer.java">
+    <entry file="file://$PROJECT_DIR$/src/Fitness/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/ClientThread.java">
+    <entry file="file://$PROJECT_DIR$/src/ChatProgram/ServerThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/ServerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="52" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+        <state relative-caret-position="303">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/Services/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChatProgram/ChatServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ChatProgram/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,4 +1,4 @@
-package Test;
+package ChatProgram;
 
 import java.io.*;
 import java.net.Socket;
@@ -47,7 +47,7 @@ public class ServerThread implements Runnable {
                         nextSend = messagesToSend.pop();
                         hasMessages = !messagesToSend.isEmpty();
                     }
-                    serverOut.println(userName + " > " + nextSend);
+                    serverOut.println(userName + ": " + nextSend);
                     serverOut.flush();
                 }
             }
