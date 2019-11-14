@@ -1,7 +1,6 @@
 package ChatProgram;
 
 import Services.Time;
-
 import java.io.*;
 import java.net.Socket;
 import java.util.*;
@@ -54,6 +53,5 @@ public class ServerThread implements Runnable {
         catch(IOException ex){
             ex.printStackTrace();
         }
-
     }
 }

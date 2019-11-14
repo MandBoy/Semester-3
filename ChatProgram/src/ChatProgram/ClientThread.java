@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class ClientThread implements Runnable {
+public class ClientThread implements Runnable{
     private Socket socket;
     private PrintWriter clientOut;
     private ChatServer server;
@@ -21,8 +21,8 @@ public class ClientThread implements Runnable {
     @Override
     public void run() {
         try{
-            this.clientOut = new PrintWriter(socket.getOutputStream(), false);
             Scanner in = new Scanner(socket.getInputStream());
+            this.clientOut = new PrintWriter(socket.getOutputStream(), false);
             while(!socket.isClosed()){
                 if(in.hasNextLine()){
                     String input = in.nextLine();

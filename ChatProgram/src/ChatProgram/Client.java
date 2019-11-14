@@ -6,9 +6,10 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Client {
+public class Client{
     private static final String host = "localhost";
     private static final int portNumber = 4444;
+
     private String userName;
     private String serverHost;
     private int serverPort;
